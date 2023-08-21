@@ -5,8 +5,8 @@ function increment(e){
     const getTheValue=parseInt(getTheCountField);
     count =getTheValue+1;
     getTheCount.innerText=count;
-    if(getTheValue===10){
-       return getTheCount.innerText=10;
+    if(getTheValue===100){
+       return getTheCount.innerText=100;
 }
 }
 function decrement(e){
@@ -18,8 +18,9 @@ function decrement(e){
     getTheCount.innerText=count;
     if(getTheValue===0){
         return getTheCount.innerText=0;}
-        
+
    
 }
-
-
+function reset(){
+    window.location.reload();
+}
